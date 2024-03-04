@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Docker Push') {
             steps {
-                sh 'docker push jyothsnashrey/frontend'
+                sh 'docker push docker.io/jyothsnashrey/frontend'
             }
         }
 
